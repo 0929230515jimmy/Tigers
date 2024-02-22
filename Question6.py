@@ -8,7 +8,8 @@ from plotly.subplots import make_subplots
 
 
 #----import data----
-df = pd.read_csv("https://github.com/0929230515jimmy/Tigers/blob/main/AnalyticsQuestionnaireHitData%20copy.csv?raw=True")
+#df = pd.read_csv("https://github.com/0929230515jimmy/Tigers/blob/main/AnalyticsQuestionnaireHitData%20copy.csv?raw=True")
+df = pd.read_csv("AnalyticsQuestionnaireHitData.csv")
 df["HorzBreak"] = df["HorzBreak"].abs()
 
 #----main page overall---
