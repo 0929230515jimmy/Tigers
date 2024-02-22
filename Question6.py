@@ -4,7 +4,6 @@ import plotly.express as px
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
-from plotly.subplots import make_subplots
 
 
 #----import data----
