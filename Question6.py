@@ -7,7 +7,7 @@ import seaborn as sns
 
 
 #----import data----
-df = pd.read_csv(io = 'https://github.com/0929230515jimmy/Tigers/blob/main/AnalyticsQuestionnaireHitData.csv?raw=True')
+df = pd.read_csv('https://github.com/0929230515jimmy/Tigers/blob/main/AnalyticsQuestionnaireHitData.csv?raw=True')
 #df = pd.read_csv("AnalyticsQuestionnaireHitData.csv")
 df["HorzBreak"] = df["HorzBreak"].abs()
 
